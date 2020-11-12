@@ -1,0 +1,11 @@
+.card {
+  font-family: 'Abril Fatface', cursive; }
+  .card a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: black;
+    font-size: 35px;
+    text-align: center; }
+
+/*# sourceMappingURL=theme.css.map */

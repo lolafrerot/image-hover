@@ -1,0 +1,42 @@
+@import 'mixins';
+body, html{
+    overflow-x: hidden;
+}
+.imageHover{
+    overflow: hidden;
+    .imageHover-image-container{
+        display: none;
+        position: absolute;
+        z-index: -1;
+       
+       
+       
+    }
+    .imageHover-card-container{
+        height: 300px;
+        padding-top: 150px;
+        border: 1px solid whitesmoke;
+        width:100%;
+        margin-bottom: 150px;
+    }
+    .imageHover-card-container.display{
+        
+        .imageHover-image-container{
+            display: block;
+           
+            
+        }
+    }
+    .imageHover-card-container.clicked{
+        
+        .imageHover-image-container{
+            display: block;
+            img{
+                width: 100%;
+                height: auto;
+            }
+           
+            
+        }
+    }
+}
